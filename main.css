@@ -2,6 +2,9 @@
   font-family: 'Overlock', cursive;
   text-align: center;
 }
+#header {
+  margin-bottom: 100px;
+}
 .logo {
   width: 200px;
 }
@@ -9,4 +12,48 @@
 #addy {
   list-style-image: url('maps-and-location-50.png');
   list-style-position: inside;
+}
+#maincontent {
+  margin: auto;
+  align-content: center;
+  width: 60%;
+  font-size: 18pt;
+  margin-bottom: 100px;
+}
+
+#cta {
+  font-size: 22pt;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #79bbff;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+
+#second-flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#second-flex > div {
+  width: 40%;
+
+}
+#second-flex > div > ul {
+  list-style: none;
+  font-size: 20pt;
 }
