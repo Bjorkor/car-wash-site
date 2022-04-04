@@ -1,0 +1,12 @@
+* {
+  font-family: 'Overlock', cursive;
+  text-align: center;
+}
+.logo {
+  width: 200px;
+}
+
+#addy {
+  list-style-image: url('maps-and-location-50.png');
+  list-style-position: inside;
+}
