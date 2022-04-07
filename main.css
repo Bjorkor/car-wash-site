@@ -65,3 +65,11 @@
   list-style: none;
   font-size: 20pt;
 }
+
+
+
+@media only screen and (max-width: 600px) {
+  .map {
+    width: auto;
+  }
+}
