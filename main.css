@@ -13,6 +13,12 @@
   list-style-image: url('maps-and-location-50.png');
   list-style-position: inside;
 }
+
+#phone {
+  list-style-image: url('phone-call.png');
+  list-style-position: inside;
+}
+
 #maincontent {
   margin: auto;
   align-content: center;
