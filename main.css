@@ -12,6 +12,7 @@
 #addy {
   list-style-image: url('maps-and-location-50.png');
   list-style-position: inside;
+  margin-bottom: 50px;
 }
 
 #phone {
